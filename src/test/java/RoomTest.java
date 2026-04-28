@@ -4,14 +4,13 @@ import model.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RoomTest
-{
+public class RoomTest {
     @Test
-    void TestConstructor(){
+    void TestConstructor() {
 
         Room r = new Room();
 
-        assertEquals(5, r.getX() );
+        assertEquals(5, r.getX());
 
     }
 }
